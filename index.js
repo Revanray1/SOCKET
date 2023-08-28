@@ -4,7 +4,7 @@
 // const os = require("os");
 // const port = process.env.PORT || 4000;
 // const { Server } = require("socket.io");
-// const cors = require("cors");
+const cors = require("cors");
 // const http = require("http");
 
 // const server = http.createServer(app);
