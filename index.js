@@ -35,7 +35,7 @@ const cors = require("cors");
 const io=require("socket.io")(4000,{
       cors: {
     // origin: "https://heroic-torte-12cce8.netlify.app",
-origin: "https://revantesting.netlify.app/",
+origin: "https://revantesting.netlify.app",
     methods: ["GET", "POST"],
   },
 })
